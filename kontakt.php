@@ -32,7 +32,7 @@
                             <li><a href="index.html" title="BILDER">BILDER</a></li>
                             <li><a href="index.html" title="PREISE">PREISE </a></li>
                             <li><a href="index.html" title="ÖFFNUNGZEITEN">ÖFFNUNGZEITEN</a></li>
-                            <li><a href="kontakt.html" title="KONTAKT">KONTAKT</a></li>
+                            <li><a href="kontakt.php" title="KONTAKT">KONTAKT</a></li>
                             <li><a href="impressum.html" title="IMPRESSUM">IMPRESSUM</a></li>
                             <li><a href="datenschutz.html" title="DATENSCHUTZ">DATENSCHUTZ</a></li>
                         </ul>
@@ -69,7 +69,7 @@
                     
                     <?php
                     if(isset($_POST["submit"])){
-                      mail("info@nkv-dachsysteme.de", 
+                      mail("info@reinigung-gruenten.de", 
                            "Kontaktformular", 
                            '
                            Name: '.$_POST["name"].' 
@@ -82,11 +82,10 @@
                      ?>
     
                     
-                    <form action="kontakt2.php" method="post">
+                    <form action="kontakt.php" method="post">
                         <input type="text" name="name" placeholder="Name" required>
                         <input type="email" name="email" placeholder="Email" required>
-                        <textarea name="message" required>
-                        </textarea>
+                        <textarea name="message" required></textarea>
                         <button type="submit" name="submit">Absenden</button>
                     </form>
                     
