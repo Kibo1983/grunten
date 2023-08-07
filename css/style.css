@@ -22,8 +22,10 @@ nav{
     padding: 0;
 }
 
-#hero .content {
-    background: rgba(0, 0, 0, 0.4);
+#hero .content {    
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/images/home-bg.jpg);
+    background-size: cover;
+    background-position: center; 
     height: 100%;
     width: 100%;
     z-index: 2;
