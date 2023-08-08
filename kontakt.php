@@ -59,7 +59,7 @@
                     <hr>
                     <p> Grünten Reinigung <br> Hirschstr. 3 <br> 87527 Sonthofen <br> Deutschland</p>
                     <p>Telefon: 08321 / 88 091</p>
-                    <p> info@gruenten-reinigung.de</p>
+                    <p> info@reinigung-gruenten.de</p>
                 </div>
 
                 <div class="col-md-6">
